@@ -8,6 +8,7 @@ border-width.px: 1
 border-radius.px: 5
 margin.px: 10
 padding.px: 10
+background.solid: white
 
 -- ftd.text: Name
 role: $inherited.types.copy-small
@@ -40,7 +41,7 @@ padding-horizontal.px: 8
 width.fixed.px: 332
 border-width.px: 1
 border-radius.px: 5
-background.solid: #e9e9e9
+background.solid: #CCCCFF
 border-color: $inherited.colors.cta-tertiary.focused
 type: text
 margin-top.px: 10
@@ -61,7 +62,7 @@ border-width.px: 1
 border-radius.px: 5
 border-color: $inherited.colors.cta-tertiary.focused
 type: text
-background.solid: #e9e9e9
+background.solid: #CCCCFF
 margin-top.px: 10
 role: $inherited.types.copy-small
 color: $inherited.colors.border
@@ -76,7 +77,7 @@ placeholder: Enter job profile
 padding-vertical.px: 4
 padding-horizontal.px: 8
 margin-top.px: 10
-background.solid: #e9e9e9
+background.solid: #CCCCFF
 width.fixed.px: 332
 border-width.px: 1
 border-radius.px: 5
@@ -98,7 +99,7 @@ padding-horizontal.px: 8
 width.fixed.px: 332
 border-width.px: 1
 border-radius.px: 5
-background.solid: #e9e9e9
+background.solid: #CCCCFF
 border-color: $inherited.colors.cta-tertiary.focused
 type: text
 role: $inherited.types.copy-small
@@ -118,7 +119,7 @@ height.fixed.px: 100
 multiline: true
 border-width.px: 1
 border-radius.px: 5
-background.solid: #e9e9e9
+background.solid: #CCCCFF
 margin-top.px: 10
 border-color: $inherited.colors.cta-tertiary.focused
 type: text
@@ -138,7 +139,7 @@ margin-top.px: 10
 width.fixed.px: 332
 border-width.px: 1
 border-radius.px: 5
-background.solid: #e9e9e9
+background.solid: #CCCCFF
 border-color: $inherited.colors.cta-tertiary.focused
 type: url
 role: $inherited.types.copy-small
@@ -159,7 +160,7 @@ multiline: true
 margin-top.px: 10
 border-width.px: 1
 border-radius.px: 5
-background.solid: #e9e9e9
+background.solid: #CCCCFF
 border-color: $inherited.colors.cta-tertiary.focused
 type: text
 role: $inherited.types.copy-small
@@ -178,7 +179,7 @@ width.fixed.px: 332
 height.fixed.px: 200
 border-width.px: 1
 border-radius.px: 5
-background.solid: #e9e9e9
+background.solid: #CCCCFF
 border-color: $inherited.colors.cta-tertiary.focused
 margin-top.px: 10
 margin-bottom.px: 20
