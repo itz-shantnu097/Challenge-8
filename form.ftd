@@ -9,7 +9,6 @@ border-width.px: 1
 border-radius.px: 5
 margin.px: 10
 padding.px: 10
-background.solid: grey
 
 -- ftd.text: Name
 role: $inherited.types.copy-small
