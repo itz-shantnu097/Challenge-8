@@ -1,0 +1,207 @@
+-- component submission:
+boolean $is-hover: false
+
+-- ftd.container:
+width.fixed.px: 355
+height: fill-container
+border-width.px: 1
+border-radius.px: 5
+margin.px: 10
+padding.px: 10
+
+-- ftd.text: Name
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+margin-top.px: 10
+
+-- ftd.text-input:
+placeholder: Enter your full name
+padding-vertical.px: 4
+padding-horizontal.px: 8
+width.fixed.px: 332
+border-width.px: 1
+border-radius.px: 5
+border-color: $inherited.colors.cta-tertiary.focused
+type: text
+margin-top.px: 10
+background.solid: #CCCCFF
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+
+-- ftd.text: City
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+margin-top.px: 10
+
+-- ftd.text-input:
+placeholder: Enter your city
+padding-vertical.px: 4
+padding-horizontal.px: 8
+width.fixed.px: 332
+border-width.px: 1
+border-radius.px: 5
+background.solid: #e9e9e9
+border-color: $inherited.colors.cta-tertiary.focused
+type: text
+margin-top.px: 10
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+
+-- ftd.text: Education
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+margin-top.px: 10
+
+-- ftd.text-input:
+placeholder: Enter your education details
+padding-vertical.px: 4
+padding-horizontal.px: 8
+width.fixed.px: 332
+border-width.px: 1
+border-radius.px: 5
+border-color: $inherited.colors.cta-tertiary.focused
+type: text
+background.solid: #e9e9e9
+margin-top.px: 10
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+
+-- ftd.text: Job Profile
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+margin-top.px: 10
+
+-- ftd.text-input:
+placeholder: Enter job profile
+padding-vertical.px: 4
+padding-horizontal.px: 8
+margin-top.px: 10
+background.solid: #e9e9e9
+width.fixed.px: 332
+border-width.px: 1
+border-radius.px: 5
+border-color: $inherited.colors.cta-tertiary.focused
+type: text
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+
+-- ftd.text: Phone Number
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+margin-top.px: 10
+
+-- ftd.text-input:
+placeholder: Enter your phone number
+margin-top.px: 10
+padding-vertical.px: 4
+padding-horizontal.px: 8
+width.fixed.px: 332
+border-width.px: 1
+border-radius.px: 5
+background.solid: #e9e9e9
+border-color: $inherited.colors.cta-tertiary.focused
+type: text
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+
+-- ftd.text: Address
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+margin-top.px: 10
+
+-- ftd.text-input:
+placeholder: Enter your complete address
+padding-vertical.px: 4
+padding-horizontal.px: 8
+width.fixed.px: 332
+height.fixed.px: 100
+multiline: true
+border-width.px: 1
+border-radius.px: 5
+background.solid: #e9e9e9
+margin-top.px: 10
+border-color: $inherited.colors.cta-tertiary.focused
+type: text
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+
+-- ftd.text: Github account URL
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+margin-top.px: 10
+
+-- ftd.text-input:
+placeholder: Enter your github URL link here
+padding-vertical.px: 4
+padding-horizontal.px: 8
+margin-top.px: 10
+width.fixed.px: 332
+border-width.px: 1
+border-radius.px: 5
+background.solid: #e9e9e9
+border-color: $inherited.colors.cta-tertiary.focused
+type: url
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+
+-- ftd.text: Why you want to become fastn ambassador
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+margin-top.px: 10
+
+-- ftd.text-input:
+placeholder: Write your answer here
+padding-vertical.px: 4
+padding-horizontal.px: 8
+width.fixed.px: 332
+height.fixed.px: 200
+multiline: true
+margin-top.px: 10
+border-width.px: 1
+border-radius.px: 5
+background.solid: #e9e9e9
+border-color: $inherited.colors.cta-tertiary.focused
+type: text
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+
+-- ftd.text: How can you help fastn grow
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+margin-top.px: 10
+
+-- ftd.text-input:
+placeholder: Write your answer here
+padding-vertical.px: 4
+padding-horizontal.px: 8
+width.fixed.px: 332
+height.fixed.px: 200
+border-width.px: 1
+border-radius.px: 5
+background.solid: #e9e9e9
+border-color: $inherited.colors.cta-tertiary.focused
+margin-top.px: 10
+margin-bottom.px: 20
+text-align: start
+type: text
+multiline: true
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+
+-- ftd.text: Submit
+role: $inherited.types.label-large
+margin-left.px: 240
+text-align: center
+border-radius.px: 5
+padding-vertical.px: 8
+padding-horizontal.px: 24
+background.solid: #900C3F
+background.solid if { submission.is-hover }: #581845
+$on-mouse-enter$: $ftd.set-bool($a = $submission.is-hover, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $submission.is-hover, v = false)
+color: white
+link: https://www.submit.com
+
+-- end: ftd.container
+
+-- end: submission
