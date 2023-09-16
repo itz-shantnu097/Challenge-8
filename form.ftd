@@ -1,5 +1,4 @@
 -- component submission:
-caption title:
 boolean $is-hover: false
 
 -- ftd.container:
