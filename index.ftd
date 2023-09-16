@@ -6,6 +6,6 @@ height: hug-content
 align-content: center
 background.solid: #e9e9e9
 
--- form.submission: Submit Your form
+-- form.submission:
 
 -- end: ftd.column
